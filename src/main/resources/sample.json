@@ -1,0 +1,22 @@
+{
+	"extends" : "abc",
+	"specs" : {
+		"format" : "hhh"
+},	
+  "fields":  {  
+        "test":{
+        "locator":{
+         "type" : "xpath",			
+         "value" : "/root/element[2]/cars/element"
+		},
+		"value" : "123"
+    },
+	"test1":{
+        "locator":{
+         "type" : "xpath",			
+         "value" : "/root/element[2]/cars/element[1]"
+		},
+		"value" : "123"
+    }
+  }
+}
