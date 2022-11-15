@@ -1,0 +1,4 @@
+^\s* --> to remove space before text
+^[^ //*]+ --> to remove elements
+[ //*].* -->temove xpaths
+
